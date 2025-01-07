@@ -1,5 +1,6 @@
 import { useState } from "react"
 import Login from "./components/Auth/Login"
+import EmployeeDashboard from "./components/Dashboard/EmployeeDashboard"
 
 function App() {
   const [color, setColor] = useState("olive")
@@ -8,7 +9,8 @@ function App() {
     <>
     
 
-    <Login />
+    {/* <Login /> */}
+    <EmployeeDashboard />
     </>
   )
 }

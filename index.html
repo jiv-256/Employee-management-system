@@ -6,20 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
     <style>
-      *{
+      * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         font-family: gilroy;
-
+    
       }
-      html,body{
-        height:100%;
-        width:100%
+    
+      html,
+      body {
+        height: 100%;
+        width: 100%
       }
-      body{
+    
+      body {
         background-color: #111;
-        
+        color: aliceblue;
+      }
+    
+      #tasklist::-webkit-scrollbar {
+        width: 12px;
+        border-radius: 6px;
+      }
+    
+      #tasklist::-webkit-scrollbar-track {
+        background: #353232;
+      }
+    
+      #tasklist::-webkit-scrollbar-thumb {
+        background: repeating-linear-gradient(45deg,
+            #4a90e2 0%,
+            #4a90e2 25%,
+            #357ABD 25%,
+            #357ABD 50%);
+        border-radius: 6px;
+        border: 2px solid #353232;
+      }
+    
+      #tasklist::-webkit-scrollbar-thumb:hover {
+        background: repeating-linear-gradient(45deg,
+            #357ABD 0%,
+            #357ABD 25%,
+            #24568D 25%,
+            #24568D 50%);
       }
     </style>
   </head>
