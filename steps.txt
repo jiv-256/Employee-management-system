@@ -1,33 +1,16 @@
-1 . first make the login page , with proper tailwind then prevent default behaviour of login button , then use usestate for password and email id
+1 . first make the login page , with proper tailwind then prevent default behaviour of login button , then use usestate hook for password and email id 
 
+2. then you have to create employee dashboard , which have a logout button , a list of task assign 
 
-      designed 
-      #tasklist::-webkit-scrollbar {
-  width: 12px;
-}
+3. then we make admine dashboard which allows us to assign task , it have form and lits of ongoing tasks.
 
-#tasklist::-webkit-scrollbar-track {
-  background: #e0e0e0;
-}
+4. now the ui part is completed now we have to write the logic
 
-#tasklist::-webkit-scrollbar-thumb {
-  background: repeating-linear-gradient(
-    45deg,
-    #4a90e2 0%,
-    #4a90e2 25%,
-    #357ABD 25%,
-    #357ABD 50%
-  );
-  border-radius: 6px;
-  border: 2px solid #e0e0e0;
-}
+5. now we create 2 components authcontext and task context , use use one for authentication and other for managing task
 
-#tasklist::-webkit-scrollbar-thumb:hover {
-  background: repeating-linear-gradient(
-    45deg,
-    #357ABD 0%,
-    #357ABD 25%,
-    #24568D 25%,
-    #24568D 50%
-  );
-}
+6.we use local storage for storing data , and we make 2 function one for getting data from LS and other for sending data in LS
+
+7.then we save data in local storage and when needed we can distribute data using context api easily
+
+8.we have generated random data of 5 employee and a admin from gpt , we convert that data in string (which is also called stringification of data ) and set in local storage
+  

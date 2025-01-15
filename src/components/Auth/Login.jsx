@@ -3,8 +3,8 @@ import React from 'react'
 
 export default function Login() {
 
-    const [email, setemail] = useState(" ")
-    const [password, setpassword] = useState(" ")
+    const [email, setemail] = useState("")
+    const [password, setpassword] = useState("")
 
     const handleemail =(e)=>{
         setemail(e.target.value);
